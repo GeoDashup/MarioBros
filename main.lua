@@ -12,3 +12,7 @@ display.setStatusBar( display.HiddenStatusBar )
 
 --Cargamos la imagen
 local background = display.newImage( "mariobros.jpg", halfW, halfH )
+
+--Mostrando texto
+local saludar = display.newText(  "Hola Mundo", 230, 25, "Helvetica Neue", 25 )
+saludar:setTextColor( "Green" )
